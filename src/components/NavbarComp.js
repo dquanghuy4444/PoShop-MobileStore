@@ -38,31 +38,25 @@ const NavbarComp = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink>
-                <Link to="/phone">
-                  <FontAwesomeIcon icon={ faMobileAlt } ></FontAwesomeIcon>
-                  {" "}
-                  Điện thoại
-                </Link>
-              </NavLink>
+              <Link to="/phone" className="nav-link">
+                <FontAwesomeIcon icon={ faMobileAlt } ></FontAwesomeIcon>
+                {" "}
+                Điện thoại
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink>
-                <Link to="/watch">
-                  <FontAwesomeIcon icon={ faClock } ></FontAwesomeIcon>
-                  {" "}
-                  Đồng hồ
-                </Link>
-              </NavLink>
+              <Link to="/watch" className="nav-link">
+                <FontAwesomeIcon icon={ faClock } ></FontAwesomeIcon>
+                {" "}
+                Đồng hồ
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink>
-                <Link to="/accessories">
-                  <FontAwesomeIcon icon={ faHeadphonesAlt } ></FontAwesomeIcon>
-                  {" "}
-                  Phụ kiện
-                </Link>
-              </NavLink>
+              <Link to="/accessories" className="nav-link">
+                <FontAwesomeIcon icon={ faHeadphonesAlt } ></FontAwesomeIcon>
+                {" "}
+                Phụ kiện
+              </Link>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className="ddl-comp">
@@ -70,7 +64,7 @@ const NavbarComp = (props) => {
                 {" "}
                 Nhãn hiệu
               </DropdownToggle>
-              <DropdownMenu left>
+              <DropdownMenu left="true">
                 <DropdownItem>
                   <Link to="/brand/apple">
                     <FontAwesomeIcon icon={ faAppleAlt } ></FontAwesomeIcon>
@@ -112,13 +106,11 @@ const NavbarComp = (props) => {
               </InputGroup>
             </NavItem>
             <NavItem>
-              <NavLink>
-                <Link to="/sale">
-                  <FontAwesomeIcon icon={ faTags } ></FontAwesomeIcon>
-                  {" "}
-                  Săn sale
-                </Link>
-              </NavLink>
+              <Link to="/sale" className="nav-link">
+                <FontAwesomeIcon icon={ faTags } ></FontAwesomeIcon>
+                {" "}
+                Săn sale
+              </Link>
             </NavItem>
             <NavItem>
               <Button>

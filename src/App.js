@@ -13,7 +13,7 @@ import FooterComp from './components/FooterComp';
 
 function App() {
   return (
-    <iv>
+    <>
       <Router>
         <NavbarComp></NavbarComp>
 
@@ -26,7 +26,7 @@ function App() {
 
         <FooterComp></FooterComp>
       </Router>
-    </iv>
+    </>
   );
 }
 

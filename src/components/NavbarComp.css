@@ -1,12 +1,21 @@
 @import url('./../App.css');
 
-a:hover{
+a:hover,
+.nav-link:hover
+{
     text-decoration: none;
-    color: var(--colorMain2);
+    color: var(--colorMain2) !important;
   }
   
-a{
-  color: var(--colorMain3);
+a,
+.nav-link
+{
+  color: var(--colorMain3) !important;
+}
+
+.dropdown-item a{
+  text-decoration: none;
+  color: var(--colorMain2) !important;
 }
 
 .ddl-comp{

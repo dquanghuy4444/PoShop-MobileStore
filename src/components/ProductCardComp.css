@@ -1,5 +1,3 @@
-
-
 .picture-productcard{
     padding: 0.5rem 3.1rem;
     position: relative;
@@ -35,10 +33,27 @@
 }
 
 .link-productcard{
-    color: black;
+    color: black !important;
 }
 
 .oriprice-productcard{
     text-decoration: line-through;
     font-size: small;
+}
+
+.productcard:hover{
+    box-shadow: 1px 2px 5px #a8aee7;
+}
+
+.productcard{
+    color: var(--colorMain2); 
+}
+
+.card-body{
+    padding-bottom: 0.6rem;
+}
+
+.card-text{
+    margin-bottom: 0.6rem;
+    background-color: #e2fdfd;
 }

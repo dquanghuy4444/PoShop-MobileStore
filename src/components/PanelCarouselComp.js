@@ -3,8 +3,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
+  CarouselIndicators
 } from 'reactstrap';
 
 const items = [
@@ -25,7 +24,7 @@ const items = [
   }
 ];
 
-const CarouselComp = (props) => {
+const PanelCarouselComp = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -54,7 +53,6 @@ const CarouselComp = (props) => {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} width="100%" />
-        {/* <CarouselCaption captionText={item.caption} captionHeader={item.caption} /> */}
       </CarouselItem>
     );
   });
@@ -74,4 +72,4 @@ const CarouselComp = (props) => {
   );
 }
 
-export default CarouselComp;
+export default PanelCarouselComp;

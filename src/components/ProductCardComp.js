@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Card, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle
+  CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 import './ProductCardComp.css';
 
 const ProductCardComp = (props) => {
+
+    const [isBuyNowBtnInvisible , setIsBuyNowBtnInvisible] = useState(true);
     return (
-        <Card className="cate-card">
-            <picture className="picture-productcard mt-2">
+        <Card className="productcard" onMouseOver={ () => (setIsBuyNowBtnInvisible(false))} onMouseOut={ () => (setIsBuyNowBtnInvisible(true))}>
+            <picture className="picture-productcard mt-2 text-center">
                 <Link to="/phone">
                     <img src={ process.env.PUBLIC_URL + "/images/product/phone/apple/ip11promax/637037687757921048_11-pro-max-chung.jpg" } alt="Card image cap" />
                 </Link>
@@ -29,6 +31,11 @@ const ProductCardComp = (props) => {
                     <span className="float-right oriprice-productcard">24.000.000 đ</span>
                 </CardSubtitle>
                 <CardText>Chính hãng , bảo hành 12 tháng, chính sách 1 đổi 1 trong 15 ngày</CardText>
+                <Button color="danger" className={ isBuyNowBtnInvisible ? "invisible " : "" }>
+                    <Link to="/phone">
+                        Mua ngay
+                    </Link>
+                </Button>
             </CardBody>
         </Card>
     );

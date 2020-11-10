@@ -10,8 +10,8 @@ function mapTilerProvider (x, y, z, dpr) {
 
 function MapComp() {
     return (
-        <Map center={[21.0715906,105.7738858]} zoom={17} height={189} provider={mapTilerProvider} dprs={[1, 2]}>
-            <Marker anchor={[21.0715906,105.7738858]} payload={2} onClick={({ event, anchor, payload }) => {}} />
+        <Map center={[21.0716123,105.7738858]} zoom={17} height={195} provider={mapTilerProvider} dprs={[1, 2]}>
+            <Marker anchor={[21.0716123,105.7738858]} payload={2} onClick={({ event, anchor, payload }) => {}} />
         </Map>
     );
 }

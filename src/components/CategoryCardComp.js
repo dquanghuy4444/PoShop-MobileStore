@@ -11,9 +11,9 @@ const CategoryCardComp = ({ to , src , text }) => {
           <picture className="picture mb-2">
             <img src={ src }></img>
           </picture>
-          <CardText>
+          <>
             { text }
-          </CardText>
+          </>
         </Card>
       </Link>
 
