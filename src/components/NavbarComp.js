@@ -31,7 +31,7 @@ const NavbarComp = (props) => {
           <Link to="/" className="link-nav-comp">
             <FontAwesomeIcon icon={ faMobileAlt } size="lg" spin ></FontAwesomeIcon>
             {" "}
-            PoShop
+            PoShopz
           </Link>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
