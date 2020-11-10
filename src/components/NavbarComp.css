@@ -1,0 +1,46 @@
+@import url('./../App.css');
+
+a:hover{
+    text-decoration: none;
+    color: var(--colorMain2);
+  }
+  
+a{
+  color: var(--colorMain3);
+}
+
+.ddl-comp{
+  color: var(--colorMain3) !important;
+}
+
+.navbar-comp{
+    background-color: var(--colorMain);
+    max-height: auto;
+    padding: 0.5rem 1.7rem;
+}
+
+.navbar-brand{
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.dropdown-item a{
+  color: var(--colorMain2);
+}
+
+.btn-secondary,
+.btn-primary
+{
+  background-color: var(--colorMain2);
+}
+
+.btn-secondary:hover,
+.dropdown-item:active
+{
+  background-color: var(--colorMain3);
+  border-color: var(--colorMain3);
+}
+
+.input-search{
+  width: 20rem;
+}

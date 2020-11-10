@@ -1,0 +1,28 @@
+@import url('./../App.css');
+
+.picture{
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+}
+
+.cate-card:hover{
+    box-shadow: 1px 2px 5px #a8aee7;
+}
+
+.cate-card{
+    color: var(--colorMain2);
+   
+}

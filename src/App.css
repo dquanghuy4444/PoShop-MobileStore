@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+  --colorMain : #327dc8;
+  --colorMain2 : #08498a;
+  --colorMain3 : #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-fluid{
+  margin: 1rem 0 1.3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.panel-productcards{
+  background-color: #dcebfa;
+  padding: 1rem 1.3rem;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.panel-productcards h3{
+  color: var(--colorMain2);
+  font-weight: inherit;
+  font-size: large;
+  text-transform: uppercase;
 }

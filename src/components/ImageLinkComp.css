@@ -1,0 +1,8 @@
+.img-link{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.img-link:hover{
+    box-shadow: 1px 2px 5px #a8aee7;
+}
