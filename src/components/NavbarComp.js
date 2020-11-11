@@ -3,10 +3,8 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -27,16 +25,14 @@ const NavbarComp = (props) => {
   return (
     <div>
       <Navbar light expand="md" className="navbar-comp">
-        <NavbarBrand>
-          <Link to="/" className="link-nav-comp">
-            <FontAwesomeIcon icon={ faMobileAlt } size="lg" spin ></FontAwesomeIcon>
-            {" "}
-            PoShopz
-          </Link>
-        </NavbarBrand>
+        <Link to="/" className="link-nav-comp navbar-brand">
+          <FontAwesomeIcon icon={ faMobileAlt } size="lg" spin ></FontAwesomeIcon>
+          {" "}
+          PoShopz
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="mr-auto" navbar> 
             <NavItem>
               <Link to="/phone" className="nav-link">
                 <FontAwesomeIcon icon={ faMobileAlt } ></FontAwesomeIcon>

@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 
 function ProductCardsPanelComp() {
     return (
-        <div className="panel-productcards">
-            <Row>
+        <div className="panel-productcards mt-3 mb-3">
+            <Row className="title-productcards">
                 <Col xs="8" sm="8">
                     <h3>
                         <FontAwesomeIcon icon={ faFireAlt }></FontAwesomeIcon>   

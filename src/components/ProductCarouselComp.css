@@ -1,3 +1,27 @@
+@import url('./../App.css');
+
 .BrainhubCarouselItem{
     margin: 0 !important;
+}
+
+.panel-productcarousel{
+    background-color: #dcebfa;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+
+}
+  
+.panel-productcarousel h3{
+    color: var(--colorMain2);
+    font-weight: 600;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.title-productcarousel{
+    padding: 1rem 1rem 0.2rem;
+}
+
+.title-productcarousel a{
+    color: var(--colorMain2) !important;
 }

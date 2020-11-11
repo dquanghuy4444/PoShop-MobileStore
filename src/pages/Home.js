@@ -27,6 +27,7 @@ function Home() {
                 </Col>
             </Row>
 
+            <ProductCarouselComp></ProductCarouselComp>
         </>
     );
 }

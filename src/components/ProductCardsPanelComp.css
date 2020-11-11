@@ -1,0 +1,20 @@
+@import url('./../App.css');
+
+.panel-productcards{
+    background-color: #dcebfa;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+  
+.panel-productcards h3{
+    color: var(--colorMain2);
+    font-weight: 600;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+
+.title-productcards a{
+    color: var(--colorMain2) !important;
+}

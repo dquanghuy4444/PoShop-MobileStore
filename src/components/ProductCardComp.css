@@ -13,7 +13,7 @@
 
 .picture-productcard img:hover{
     filter: grayscale(0);
-    transform: scale(1.07);
+    transform: scale(1.05) translateY(-2%);
 }
 
 .label-productcard{

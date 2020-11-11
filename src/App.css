@@ -17,17 +17,3 @@
 .container-fluid{
   margin: 1rem 0 1.3rem;
 }
-
-.panel-productcards{
-  background-color: #dcebfa;
-  padding: 1rem 1.3rem;
-  border-radius: 5px;
-  border: 2px solid #ffffff;
-}
-
-.panel-productcards h3{
-  color: var(--colorMain2);
-  font-weight: inherit;
-  font-size: large;
-  text-transform: uppercase;
-}
