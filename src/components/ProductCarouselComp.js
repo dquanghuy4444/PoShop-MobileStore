@@ -25,6 +25,7 @@ const ProductCarouselComp = () => {
                 </Col>
             </Row>
             <Carousel
+                arrows
                 plugins={[
                     'arrows',
                     'centered',

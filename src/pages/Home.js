@@ -6,10 +6,16 @@ import ImageLinkComp from '../components/ImageLinkComp';
 import ProductCarouselComp from '../components/ProductCarouselComp';
 import ProductCardsPanelComp from '../components/ProductCardsPanelComp';
 
+const items = [
+    process.env.PUBLIC_URL + "images/carousel/637402555821736243_C1.jpg",
+    process.env.PUBLIC_URL + "images/carousel/637399073081681647_F-C1_1200x300.jpg",
+    process.env.PUBLIC_URL + "images/carousel/637386475402445660_MasstelDreamAction-C1.jpg"
+  ];
+
 function Home() {
     return (
         <>
-            <PanelCarouselComp></PanelCarouselComp>
+            <PanelCarouselComp items={ items }></PanelCarouselComp>
             <CategoryCardsComp></CategoryCardsComp>
  
             <ImageLinkComp to="/phone" src={ process.env.PUBLIC_URL + "/images/layout/637402554332607768_F-H5_1200x200.jpg" }></ImageLinkComp>

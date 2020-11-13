@@ -25,3 +25,8 @@
 .title-productcarousel a{
     color: var(--colorMain2) !important;
 }
+
+.BrainhubCarousel__arrows{
+    border-radius: 3px;
+    outline: none !important;
+}
