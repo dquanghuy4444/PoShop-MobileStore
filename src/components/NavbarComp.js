@@ -23,7 +23,7 @@ const NavbarComp = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="navbar-fixed">
       <Navbar light expand="md" className="navbar-comp">
         <Link to="/" className="link-nav-comp navbar-brand">
           <FontAwesomeIcon icon={ faMobileAlt } size="lg" spin ></FontAwesomeIcon>

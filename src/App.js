@@ -10,6 +10,7 @@ import Phone from './pages/Phone';
 import NavbarComp from './components/NavbarComp';
 import { Container } from 'reactstrap';
 import FooterComp from './components/FooterComp';
+import ButtonScrollToTopComp from './components/ButtonScrollToTopComp';
 
 function App() {
   return (
@@ -24,7 +25,10 @@ function App() {
           </Switch>
         </Container>
 
+        <ButtonScrollToTopComp></ButtonScrollToTopComp>
+
         <FooterComp></FooterComp>
+
       </Router>
     </>
   );
