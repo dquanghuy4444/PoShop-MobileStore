@@ -3,9 +3,7 @@ import { Row, Col } from 'reactstrap';
 import './FooterComp.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle , faBirthdayCake , faBook , faPhoneSquare , faBox , faLink  } from '@fortawesome/free-solid-svg-icons';
-import Map from 'pigeon-maps';
-import Marker from 'pigeon-marker';
-import MapComp from './MapComp';
+import MapPanelComp from '../components/Panels/MapPanelComp';
 
 function FooterComp() {
     return (
@@ -87,7 +85,7 @@ function FooterComp() {
                     </Col>
                     <Col xs="12" sm="3">
                         <h5 className="text-center">Địa chỉ</h5>
-                        <MapComp></MapComp>
+                        <MapPanelComp></MapPanelComp>
                     </Col>
 
                 </Row>

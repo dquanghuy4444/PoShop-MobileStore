@@ -1,5 +1,7 @@
 import React from 'react';
-import PanelCarouselComp from '../components/PanelCarouselComp';
+import CarouselPanelComp from '../components/Panels/CarouselPanelComp';
+import { Row, Col } from 'reactstrap';
+import { ListGroup, ListGroupItem } from 'reactstrap';
 
 const items = [
     process.env.PUBLIC_URL + "images/carousel/637406202146707827_F-C1_1200x300.jpg",
@@ -9,9 +11,21 @@ const items = [
 
 function Phone() {
     return (
-        <div>
-            <PanelCarouselComp items={ items }></PanelCarouselComp>
-        </div>
+        <>
+            <CarouselPanelComp items={ items }></CarouselPanelComp>
+            <Row>
+                <Col xs="0" sm="3">
+                    <ListGroup>
+                        <ListGroupItem>Cras justo odio</ListGroupItem>
+                        <ListGroupItem>Cras justo odio</ListGroupItem>
+                        <ListGroupItem>Cras justo odio</ListGroupItem>
+                        <ListGroupItem>Cras justo odio</ListGroupItem>
+                        <ListGroupItem>Cras justo odio</ListGroupItem>
+                    </ListGroup>
+                </Col>
+                <Col xs="12" sm="9">Sản phẩm</Col>
+            </Row>
+        </>
     );
 }
 

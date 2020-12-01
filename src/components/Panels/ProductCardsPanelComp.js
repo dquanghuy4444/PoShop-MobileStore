@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductCardsPanelComp.css';
 import { Row, Col } from 'reactstrap';
-import ProductCardComp from '../components/ProductCardComp';
+import  ProductCardComp   from '../Cards/ProductCardComp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFireAlt } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';

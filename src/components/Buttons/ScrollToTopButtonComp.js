@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import "./ButtonScrollToTopComp.css";
+import "./ScrollToTopButtonComp.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { useWindowScroll } from "react-use";
 
-function ButtonScrollToTopComp() {
+function ScrollToTopButtonComp() {
 
     const { y : pageYOffset } = useWindowScroll();
     const [visible , setVisible] = useState(false);
@@ -32,4 +32,4 @@ function ButtonScrollToTopComp() {
     );
 }
 
-export default ButtonScrollToTopComp;
+export default ScrollToTopButtonComp;

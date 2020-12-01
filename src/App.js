@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Phone from './pages/Phone';
-import NavbarComp from './components/NavbarComp';
+import NavbarComp from './containers/NavbarComp';
 import { Container } from 'reactstrap';
-import FooterComp from './components/FooterComp';
-import ButtonScrollToTopComp from './components/ButtonScrollToTopComp';
+import FooterComp from './containers/FooterComp';
+import ScrollToTopButtonComp from './components/Buttons/ScrollToTopButtonComp';
 
 function App() {
   return (
@@ -25,11 +25,10 @@ function App() {
           </Switch>
         </Container>
 
-        <ButtonScrollToTopComp></ButtonScrollToTopComp>
-
         <FooterComp></FooterComp>
-
       </Router>
+      
+      <ScrollToTopButtonComp></ScrollToTopButtonComp>
     </>
   );
 }

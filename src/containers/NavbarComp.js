@@ -88,7 +88,7 @@ const NavbarComp = (props) => {
             </UncontrolledDropdown>
           </Nav>
 
-          <Nav navbar>
+          <Nav>
             <NavItem className="mr-4">
               <InputGroup className="input-search">
                 <Input />

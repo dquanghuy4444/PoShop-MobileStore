@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-import CategoryCardComp from './CategoryCardComp';
+import CategoryCardComp from '../Cards/CategoryCardComp';
 
 const categories = [
     {
@@ -35,7 +35,7 @@ const categories = [
     },
 ]
 
-const CategoryCardsComp = () => {
+const CategoryCardsPanelComp = () => {
 
     const showCateCards = () =>{
         return categories.map((catecard , index) =>{
@@ -54,4 +54,4 @@ const CategoryCardsComp = () => {
     );
 };
 
-export default CategoryCardsComp;
+export default CategoryCardsPanelComp;

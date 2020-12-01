@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Button, CardTitle, CardText } from 'reactstrap';
+import { Card } from 'reactstrap';
 import './CategoryCardComp.css';
 
 const CategoryCardComp = ({ to , src , text }) => {

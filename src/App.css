@@ -16,4 +16,5 @@
 
 .container-fluid{
   margin: 1rem 0 1.3rem;
+  min-height: 300px;
 }

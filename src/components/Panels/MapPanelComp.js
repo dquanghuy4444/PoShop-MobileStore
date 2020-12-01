@@ -8,7 +8,7 @@ function mapTilerProvider (x, y, z, dpr) {
   return `https://api.maptiler.com/maps/streets/256/${z}/${x}/${y}${dpr >= 2 ? '@2x' : ''}.png?key=${MAPTILER_ACCESS_TOKEN}`;
 }
 
-function MapComp() {
+function MapPanelComp() {
     return (
         <Map center={[21.0716123,105.7738858]} zoom={17} height={195} provider={mapTilerProvider} dprs={[1, 2]}>
             <Marker anchor={[21.0716123,105.7738858]} payload={2} onClick={({ event, anchor, payload }) => {}} />
@@ -16,4 +16,4 @@ function MapComp() {
     );
 }
 
-export default MapComp;
+export default MapPanelComp;

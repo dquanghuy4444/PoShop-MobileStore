@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-import ProductCardComp from './ProductCardComp';
 import './ProductCarouselComp.css';
 import { Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import ProductCardComp from '../Cards/ProductCardComp';
 
 const ProductCarouselComp = () => {
     return (
@@ -57,6 +57,8 @@ const ProductCarouselComp = () => {
                 animationSpeed={1111}
                 
             >
+                <ProductCardComp></ProductCardComp>
+                <ProductCardComp></ProductCardComp>
                 <ProductCardComp></ProductCardComp>
                 <ProductCardComp></ProductCardComp>
                 <ProductCardComp></ProductCardComp>

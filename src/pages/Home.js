@@ -1,10 +1,10 @@
 import React from 'react';
-import PanelCarouselComp from '../components/PanelCarouselComp';
+import CarouselPanelComp from '../components/Panels/CarouselPanelComp';
 import { Row, Col } from 'reactstrap';
-import CategoryCardsComp from '../components/CategoryCardsComp';
-import ImageLinkComp from '../components/ImageLinkComp';
-import ProductCarouselComp from '../components/ProductCarouselComp';
-import ProductCardsPanelComp from '../components/ProductCardsPanelComp';
+import CategoryCardsPanelComp from '../components/Panels/CategoryCardsPanelComp';
+import ImageLinkComp from '../components/Links/ImageLinkComp';
+import ProductCarouselComp from '../components/Carousels/ProductCarouselComp';
+import ProductCardsPanelComp from '../components/Panels/ProductCardsPanelComp';
 
 const items = [
     process.env.PUBLIC_URL + "images/carousel/637402555821736243_C1.jpg",
@@ -15,8 +15,8 @@ const items = [
 function Home() {
     return (
         <>
-            <PanelCarouselComp items={ items }></PanelCarouselComp>
-            <CategoryCardsComp></CategoryCardsComp>
+            <CarouselPanelComp items={ items }></CarouselPanelComp>
+            <CategoryCardsPanelComp></CategoryCardsPanelComp>
  
             <ImageLinkComp to="/phone" src={ process.env.PUBLIC_URL + "/images/layout/637402554332607768_F-H5_1200x200.jpg" }></ImageLinkComp>
 
