@@ -1,15 +1,15 @@
 @import url('./../App.css');
 
 .footer-main{
-    background-color: var(--colorMain);
+    background-color: var(--mainColor);
     min-height: 50px;
     padding: 1rem 2.6rem;
     min-width: 100%;
-    color: var(--colorMain3);
+    color: var(--mainColor3);
 }
 
 .footer-main h5{
-    color: var(--colorMain2);
+    color: var(--mainColor2);
 }
 
 /* footer {

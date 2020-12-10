@@ -4,26 +4,26 @@ a:hover,
 .nav-link:hover
 {
     text-decoration: none;
-    color: var(--colorMain2) !important;
+    color: var(--mainColor2) !important;
   }
   
 a,
 .nav-link
 {
-  color: var(--colorMain3) !important;
+  color: var(--mainColor3) !important;
 }
 
 .dropdown-item a{
   text-decoration: none;
-  color: var(--colorMain2) !important;
+  color: var(--mainColor2) !important;
 }
 
 .ddl-comp{
-  color: var(--colorMain3) !important;
+  color: var(--mainColor3) !important;
 }
 
 .navbar-comp{
-    background-color: var(--colorMain);
+    background-color: var(--mainColor);
     max-height: auto;
     padding: 0.5rem 1.7rem;
 }
@@ -34,20 +34,20 @@ a,
 }
 
 .dropdown-item a{
-  color: var(--colorMain2);
+  color: var(--mainColor2);
 }
 
 .btn-secondary,
 .btn-primary
 {
-  background-color: var(--colorMain2);
+  background-color: var(--mainColor2);
 }
 
 .btn-secondary:hover,
 .dropdown-item:active
 {
-  background-color: var(--colorMain3);
-  border-color: var(--colorMain3);
+  background-color: var(--mainColor3);
+  border-color: var(--mainColor3);
 }
 
 .input-search{

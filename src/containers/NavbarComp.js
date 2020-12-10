@@ -89,7 +89,7 @@ const NavbarComp = (props) => {
           </Nav>
 
           <Nav>
-            <NavItem className="mr-4">
+            {/* <NavItem className="mr-4">
               <InputGroup className="input-search">
                 <Input />
                 <InputGroupAddon addonType="append">
@@ -108,6 +108,7 @@ const NavbarComp = (props) => {
                 Săn sale
               </Link>
             </NavItem>
+             */}
             <NavItem>
               <Button>
                 <Link to="/cart">

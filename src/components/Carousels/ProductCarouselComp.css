@@ -12,7 +12,7 @@
 }
   
 .panel-productcarousel h3{
-    color: var(--colorMain2);
+    color: var(--mainColor2);
     font-weight: 600;
     font-size: large;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
 }
 
 .title-productcarousel a{
-    color: var(--colorMain2) !important;
+    color: var(--mainColor2) !important;
 }
 
 .BrainhubCarousel__arrows{

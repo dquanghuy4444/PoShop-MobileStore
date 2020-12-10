@@ -12,8 +12,8 @@ function FooterComp() {
                 <Row>
                     <Col xs="6" sm="3">
                         <h5 className="text-center">Chứng nhận</h5>
-                        <img src={process.env.PUBLIC_URL + "images/layout/logoSaleNoti.png"} width="60%" className="mt-2"></img>
-                        <img src={process.env.PUBLIC_URL + "images/layout/20150827110756-dadangky-500x188.png"} width="60%" className="mt-3"></img>
+                        <img src={ window.location.origin + "/images/layout/logoSaleNoti.png"} width="60%" className="mt-2"></img>
+                        <img src={ window.location.origin + "/images/layout/20150827110756-dadangky-500x188.png"} width="60%" className="mt-3"></img>
                     </Col>
                     <Col xs="6" sm="3">
                         <h5 className="text-center">Tư vấn</h5>

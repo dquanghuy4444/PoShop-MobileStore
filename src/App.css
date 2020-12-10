@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500&family=Open+Sans:wght@300;400;600&display=swap');
 
 :root{
-  --colorMain : #327dc8;
-  --colorMain2 : #08498a;
-  --colorMain3 : #ffffff;
+  --mainColor : #327dc8;
+  --mainColor2 : #08498a;
+  --mainColor3 : #ffffff;
 }
 
 * {
@@ -12,6 +12,11 @@
   box-sizing: border-box;
   font-family: 'Big Shoulders Inline Display', cursive;
   font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+  background-color:#e7f4ff;
+  /* background-color:#fff; */
 }
 
 .container-fluid{

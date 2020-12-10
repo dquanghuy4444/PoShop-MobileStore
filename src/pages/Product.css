@@ -1,0 +1,49 @@
+@import url('./../App.css');
+
+.breadcrumb {
+    background-color: #9abfe4;
+}
+
+.product-container{
+    background-color: #fff;
+    margin: 0;
+}
+
+.product-title{
+    padding: 0.6rem 1.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid  rgb(226 226 226);
+}
+
+.imgproduct-container{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgproduct-container button:active{
+    outline: none;
+}
+
+.imgproduct-container button:focus{
+    outline: none;
+}
+
+.product-detail{
+    background-color: #e6e3f1;
+    width: 50%;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.product-buynow{
+    width: 50%;
+    height: 12%;
+}
+
+.product-buynow:hover{
+    background-color: var(--mainColor);
+}
